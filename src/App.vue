@@ -1,11 +1,13 @@
 <script setup>
-
+  import UserList from './components/UserList.vue'
 </script>
 
 <template>
-  <div>Hello world</div>
+  <div class="app">
+    <h1>Список сотрудников</h1>
+    <UserList />
+  </div>
 </template>
 
-<style scoped>
-
+<style>
 </style>
